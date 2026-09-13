@@ -4,6 +4,41 @@
 
 An end-to-end machine learning system that predicts customer churn probability, identifies high-risk customers, explains individual predictions using SHAP, and generates rule-based retention recommendations.
 
+## 🖥️ Application Screenshots
+
+### 📊 Dashboard
+
+The dashboard provides an overview of customer churn risk, including the number of test customers, high-risk customers, critical-risk customers, predicted churn customers, and overall risk distribution.
+
+![Customer Churn Intelligence Dashboard](01_dashboard.png)
+
+---
+
+### 👤 Customer Analysis
+
+The Customer Analysis section provides an individual customer's churn probability, predicted churn status, risk level, customer profile, SHAP-based explanation, and retention recommendations.
+
+![Customer Analysis](02_customer_analysis.png)
+
+---
+
+### 🔍 SHAP Explainability
+
+SHAP explanations show the key features contributing to an individual customer's churn prediction, helping interpret why the model considers the customer high or low risk.
+
+![SHAP Explainability](03_shap_explainability.png)
+
+---
+
+### 🚨 High-Risk Customers
+
+The High-Risk Customers section provides a prioritized list of customers with elevated churn probability and allows the results to be downloaded for further analysis.
+
+![High-Risk Customers](04_high_risk_customers.png)
+
+---
+
+
 🚀 **Live Demo:** [Customer Churn Intelligence](https://raj-churn-intelligence.streamlit.app)
 
 ---
